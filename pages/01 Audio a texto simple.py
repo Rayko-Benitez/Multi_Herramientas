@@ -11,7 +11,7 @@ import signal
 
 #visual de la pagina y complementos
 # Logo
-st.sidebar.image("static\logo av sunglass.png", width=100)
+st.sidebar.image("static/logo av sunglass.png", width=100)
 
 
 # Título y descripción
