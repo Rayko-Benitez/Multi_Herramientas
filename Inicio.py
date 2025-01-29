@@ -8,8 +8,7 @@ def hash_password(password):
 
 # Base de datos de usuarios y contraseñas cifradas (se manejarán manualmente)
 USER_DB = {
-    "user1@example.com": hash_password("password123"),
-    "user2@example.com": hash_password("securepass456"),
+    "usuario_test@ejemplo.com": hash_password("piTH5+sd98")
 }
 
 # Función para autenticar usuario
