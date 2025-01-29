@@ -38,7 +38,7 @@ formato = st.sidebar.selectbox("Selecciona el formato de descarga:", ["Audio", "
 
 # Encabezado principal
 st.header("Descarga videos y audios de Youtube")
-
+st.subheader("De momento no funciona online, solo en local por las carpetas")
 
 output_path = st.sidebar.text_input("Ingresa la ruta de la carpeta donde quieres descargar los archivos")  # Carpeta local de descargas
 

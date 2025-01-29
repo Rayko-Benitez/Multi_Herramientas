@@ -51,6 +51,7 @@ st.sidebar.markdown(
 
 # -------------Configuración de la interfaz de usuario------------
 st.title("Aplicación de Transcripción de Audios WAV")
+st.subheader("De momento no funciona online, solo en local por las carpetas")
 
 # Input para la carpeta de archivos
 input_folder = st.text_input("Ingresa la ruta de la carpeta que contiene los archivos .wav")
