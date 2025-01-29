@@ -167,10 +167,10 @@ if uploaded_file is not None:
     # Mostramos la transcripción, ya sea el texto correcto o un error
     st.text_area("Texto transcrito", value=st.session_state.transcribed_text, height=300)
 
-    # Botón para copiar al portapapeles
-    if st.button("Copiar texto al portapapeles"):
-        pyperclip.copy(st.session_state.transcribed_text)
-        st.success("Texto copiado al portapapeles.")
+    # Botón para copiar al portapapeles descomentar para la version en local
+    #if st.button("Copiar texto al portapapeles"):
+        #pyperclip.copy(st.session_state.transcribed_text)
+        #st.success("Texto copiado al portapapeles.")
 
 
 # De aqui para abajo es una nueva funcionalidad del boton reset
